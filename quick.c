@@ -42,13 +42,13 @@ int partition(int a[],int l,int h)
 }
 int main()
 {
-    int in,n,i,a[];
+    int n,i,a[100];
     printf("Enter number of elements\n");
     scanf("%d",&n);
     
     printf("enter elements\n");
     for(i=0;i<n;i++)
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
 
     printf("before sorting\n");
     for(i=0;i<n;i++)
